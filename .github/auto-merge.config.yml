@@ -88,6 +88,7 @@ auto-merge-rules:
       - 'version.quarkus'
       - 'version.shrinkwrap.resolvers'
       - 'version.spring-boot'
+      - 'version.testcontainers'
       - 'version.undertow'
       # Maven plugins
       - 'org.apache.felix:maven-bundle-plugin'
