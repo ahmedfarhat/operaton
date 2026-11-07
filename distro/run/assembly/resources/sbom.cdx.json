@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
-  "serialNumber": "urn:uuid:eb07c776-6099-49a0-bbac-7e3a104ea70d",
+  "serialNumber": "urn:uuid:69914af5-b484-4485-b981-94853105c7fa",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-07T07:58:49Z",
+    "timestamp": "2026-11-07T21:10:19Z",
     "tools": {
       "components": [
         {
@@ -11348,11 +11348,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-rest@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.springboot",
       "name": "operaton-bpm-spring-boot-starter-rest",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton - Spring Boot Starter - Rest",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-rest@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-rest@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-rest",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-rest",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -19008,11 +19031,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.jakartaee",
       "name": "operaton-ejb-client",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton - Client",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.jakartaee/operaton-ejb-client@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-ejb-client",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-ejb-client",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -20431,11 +20477,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-security@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.springboot",
       "name": "operaton-bpm-spring-boot-starter-security",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton Platform - Spring Boot Starter - Spring Security",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-security@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-security@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-security",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-security",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -20502,11 +20571,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.springboot",
       "name": "operaton-bpm-spring-boot-starter-webapp",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton - Spring Boot Starter - Webapps",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-webapp",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-webapp",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -20671,11 +20763,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp-neo@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.springboot",
       "name": "operaton-bpm-spring-boot-starter-webapp-neo",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton - Spring Boot Starter - Webapps-Neo",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp-neo@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter-webapp-neo@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-webapp-neo",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter-webapp-neo",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -20711,11 +20826,34 @@
     {
       "type": "library",
       "bom-ref": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter@2.3.0-SNAPSHOT?type=jar",
+      "publisher": "Operaton",
       "group": "org.operaton.bpm.springboot",
       "name": "operaton-bpm-spring-boot-starter",
       "version": "2.3.0-SNAPSHOT",
+      "description": "Operaton - Spring Boot Starter",
       "scope": "required",
-      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter@2.3.0-SNAPSHOT?type=jar"
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.operaton.bpm.springboot/operaton-bpm-spring-boot-starter@2.3.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.operaton.org/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/issues/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/operaton/operaton/operaton-parent/operaton-bpm-spring-boot-starter-root/operaton-bpm-spring-boot-starter",
+          "type": "vcs"
+        }
+      ]
     },
     {
       "type": "library",
@@ -22666,7 +22804,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "15dc9906-4167-4a85-b69c-7d31790df2fa",
+      "bom-ref": "d757831d-66de-4543-8d4c-22cb1d58e9d0",
       "name": "package-lock.json",
       "properties": [
         {
@@ -27946,7 +28084,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "e5249f0d-3e0c-46a5-a6b6-035bb5c9e8a5",
+      "bom-ref": "26758de2-e445-4137-8334-0300ea6430d1",
       "name": "/repo/webapps/frontend",
       "properties": [
         {
@@ -27957,7 +28095,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "f81d1304-f0c4-4e67-b3f9-a4f78467a234",
+      "bom-ref": "237edc34-7c34-4cbe-9a8d-1b52994d9485",
       "name": "package-lock.json",
       "properties": [
         {
@@ -29090,7 +29228,7 @@
     },
     {
       "type": "application",
-      "bom-ref": "59c4663f-2bdd-4699-9fee-55363ebe33a7",
+      "bom-ref": "41f62101-f509-4ead-98e0-7d794db58f32",
       "name": "/repo/webapps-neo/frontend",
       "properties": [
         {
@@ -31905,7 +32043,13 @@
       "dependsOn": []
     },
     {
-      "ref": "15dc9906-4167-4a85-b69c-7d31790df2fa",
+      "ref": "26758de2-e445-4137-8334-0300ea6430d1",
+      "dependsOn": [
+        "d757831d-66de-4543-8d4c-22cb1d58e9d0"
+      ]
+    },
+    {
+      "ref": "d757831d-66de-4543-8d4c-22cb1d58e9d0",
       "dependsOn": [
         "pkg:npm/%40bpmn-io/dmn-migrate@0.7.1",
         "pkg:npm/%40bpmn-io/form-js@1.26.1",
@@ -31952,12 +32096,6 @@
         "pkg:npm/requirejs-angular-define@1.1.0",
         "pkg:npm/requirejs@2.3.8",
         "pkg:npm/superagent@10.4.1"
-      ]
-    },
-    {
-      "ref": "e5249f0d-3e0c-46a5-a6b6-035bb5c9e8a5",
-      "dependsOn": [
-        "15dc9906-4167-4a85-b69c-7d31790df2fa"
       ]
     },
     {
@@ -33360,13 +33498,7 @@
       "dependsOn": []
     },
     {
-      "ref": "59c4663f-2bdd-4699-9fee-55363ebe33a7",
-      "dependsOn": [
-        "f81d1304-f0c4-4e67-b3f9-a4f78467a234"
-      ]
-    },
-    {
-      "ref": "f81d1304-f0c4-4e67-b3f9-a4f78467a234",
+      "ref": "237edc34-7c34-4cbe-9a8d-1b52994d9485",
       "dependsOn": [
         "pkg:npm/%40bpmn-io/feelin@6.1.0",
         "pkg:npm/%40bpmn-io/form-js-viewer@1.24.0",
@@ -33384,6 +33516,12 @@
         "pkg:npm/react-bpmn@0.2.0",
         "pkg:npm/react-hotkeys-hook@5.3.3",
         "pkg:npm/react-i18next@17.0.10"
+      ]
+    },
+    {
+      "ref": "41f62101-f509-4ead-98e0-7d794db58f32",
+      "dependsOn": [
+        "237edc34-7c34-4cbe-9a8d-1b52994d9485"
       ]
     },
     {
